@@ -1,35 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VariantEXPERT</title>
+  <title>VariantEXPERT – Expert Hb Variant Diagnosis</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+      margin-right: 20px;
+    }
+    nav {
+      background: #1e3799;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: #82ccdd;
+      padding: 60px 20px;
       text-align: center;
-      background: #f4f6f8;
-      padding: 50px;
     }
-    img {
-      width: 120px;
-      margin-bottom: 20px;
-    }
-    h1 {
+    .hero h1 {
       font-size: 2.5em;
-      color: #222;
     }
-    p {
+    .hero p {
       font-size: 1.2em;
-      color: #555;
-      max-width: 600px;
-      margin: 0 auto;
+      margin: 20px 0;
+    }
+    .hero button {
+      background: #0a3d62;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #1e3799;
+    }
+    .footer {
+      background: #1e3799;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="VariantEXPERT Logo" />
-  <h1>Welcome to VariantEXPERT</h1>
-  <p>A diagnostic consulting platform for rare disease diagnosis, variant interpretation, and personalized guidance. Coming soon!</p>
+
+<header>
+  <img src="logo.png" alt="VariantEXPERT Logo">
+  <div>
+    <h1>VariantEXPERT</h1>
+    <p>Your trusted partner in HPLC-based hemoglobinopathy diagnosis</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Submit a Case</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Expert Opinion in Hemoglobinopathy Diagnosis</h1>
+  <p>Accurate interpretation of HPLC chromatograms by a specialist with 6+ years experience and 50,000+ cases reported.</p>
+  <button onclick="alert('Submission page coming soon')">Submit Your Case</button>
+</section>
+
+<section class="section">
+  <h2>About VariantEXPERT</h2>
+  <p>VariantEXPERT is a diagnostic consulting platform led by a Specialist Clinical Pathologist with deep expertise in HPLC-based diagnosis of hemoglobin variants. Our aim is to assist clinicians, labs, and patients in interpreting complex cases with clarity and accuracy.</p>
+</section>
+
+<section class="section">
+  <h2>Our Services</h2>
+  <ul>
+    <li>✔ HPLC chromatogram interpretation</li>
+    <li>✔ Confirmatory reporting for suspected Hb variants</li>
+    <li>✔ Second opinion for difficult cases</li>
+    <li>✔ Guidance for genetic counseling and family screening</li>
+  </ul>
+</section>
+
+<div class="footer">
+  &copy; 2025 VariantEXPERT. All rights reserved. | contact@variantexpert.com
+</div>
+
 </body>
 </html>
